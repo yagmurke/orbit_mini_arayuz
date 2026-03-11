@@ -1,0 +1,22 @@
+{
+    "lessons": [
+        {
+            "id": 1,
+            "title": "Introduction to Programming",
+            "description": "Learn the basics of programming with Python.",
+            "duration": "2 hours"
+        },
+        {
+            "id": 2,
+            "title": "Web Development",
+            "description": "Build your first website using HTML, CSS, and JavaScript.",
+            "duration": "3 hours"
+        },
+        {
+            "id": 3,
+            "title": "Data Science",
+            "description": "Explore data analysis and visualization techniques.",
+            "duration": "4 hours"
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+recursive-include src/my-app/i18n *.json
+recursive-include src/my-app/qml *.qml
+recursive-include src/my-app/assets/icons *.png
+recursive-include src/my-app/assets/audios *.wav
