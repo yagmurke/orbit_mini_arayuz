@@ -118,17 +118,6 @@
                     }
                 }
             
-                // TemelBilesenler.OzelButon {
-                //     id: okul_sistemi
-                //     butonKonumX: 94
-                //     butonKonumY: 545
-                //     arkaPlanResmi: ASSETS_PATH + "/icons/okul_sistemi.png"
-                //     butonRengi: '#fafafa'
-                //     onClicked: {
-                //         sayfaYoneticisi.pop("qrc/Main.qml")
-                //     }
-                //     z:3
-                // }
                 TemelBilesenler.OzelButon {
                     id: geri_butonu
                     butonKonumX: 250

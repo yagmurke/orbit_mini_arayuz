@@ -196,6 +196,7 @@ Item{
                 butonRengi: '#fafafa'
                 onClicked: {
                     sayfaYoneticisi.pop("qrc/Main.qml")
+                    appControl.stop_sound()
                 }
                 z:3
             }
@@ -207,6 +208,7 @@ Item{
                 butonRengi: '#fafafa'
                 onClicked: {
                     sayfaYoneticisi.pop()
+                    appControl.stop_sound()
                 }
                 z:3
             }

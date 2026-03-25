@@ -206,6 +206,7 @@ Item{
                 butonRengi: '#fafafa'
                 onClicked: {
                     sayfaYoneticisi.pop("qrc/Main.qml")
+                    appControl.stop_sound()
                 }
                 z:3
             }
@@ -217,6 +218,7 @@ Item{
                 butonRengi: '#fafafa'
                 onClicked: {
                     sayfaYoneticisi.pop()
+                    appControl.stop_sound()
                 }
                 z:3
             }
@@ -364,6 +366,7 @@ Item{
                 onClicked: {
                     console.log("Sayfa geçişi tetiklendi");
                     sayfaYoneticisi.push("matematikSayfa2.qml");
+                    appControl.stop_sound()
                 }
             }
         }

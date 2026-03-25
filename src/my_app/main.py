@@ -5,7 +5,7 @@ import signal
 from PyQt6.QtGui import QGuiApplication, QCursor
 from PyQt6.QtQml import QQmlApplicationEngine
 from PyQt6.QtCore import Qt
-from PySide6.QtGui import QGuiApplication
+from PyQt6.QtGui import QGuiApplication
 from importlib.resources import files
 
 from my_app.backend.app_control import AppControl
